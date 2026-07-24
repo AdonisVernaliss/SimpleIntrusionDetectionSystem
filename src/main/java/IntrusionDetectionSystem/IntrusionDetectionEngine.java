@@ -1,8 +1,7 @@
 package IntrusionDetectionSystem;
 
-import org.pcap4j.packet.Packet;
+import java.util.List;
 
 public interface IntrusionDetectionEngine {
-    void detect(Packet packet);
+    List<SecurityAlert> detect(PacketMetadata packet);
 }
-

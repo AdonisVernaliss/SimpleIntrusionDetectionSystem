@@ -1,2 +1,14 @@
 /target/
-.vscode
+.vscode/
+.idea/
+.settings/
+.classpath
+.project
+*.iml
+.DS_Store
+
+# Captures and generated alert logs may contain sensitive network metadata.
+*.pcap
+*.pcapng
+*.jsonl
+*.log

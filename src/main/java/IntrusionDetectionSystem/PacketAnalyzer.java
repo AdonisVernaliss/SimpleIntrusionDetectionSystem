@@ -3,5 +3,5 @@ package IntrusionDetectionSystem;
 import org.pcap4j.packet.Packet;
 
 public interface PacketAnalyzer {
-    void analyze(Packet packet);
+    PacketMetadata analyze(Packet packet, long timestampMillis);
 }
